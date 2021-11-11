@@ -1,0 +1,83 @@
+html, body, .container {
+    font-family: 'Asap',sans-serif !important;
+}
+.error {
+    color: #FF0000;
+}
+
+.btn-colored {
+    background: #063549 !important;
+    color: white !important;
+    border: none !important;
+}
+.btn-colored:disabled{
+    background: #548499 !important;
+
+}
+
+/*html, body, .container {
+    height: 100%;
+}
+
+body {
+    background: url(../img/image/background.png);
+}*/
+
+label,
+h4,
+h3,
+p,
+.nav-tabs .nav-link,
+.nav-tabs .nav-link.active {
+    color: #063549;
+}
+.nav-tabs .nav-link.active {
+    font-weight: bold;
+}
+.bb {
+    border-bottom: 1px solid #063549 !important;
+}
+
+#totalsoma {
+    background: #063549;
+    color: white !important;
+}
+
+p {
+    font-size: 11px;
+}
+#toltalsoma::placeholder {
+    color: white !important;
+}
+#login.container {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.login-card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#login button {
+    background: #063549;
+    color: white;
+}
+
+.title h1 {
+    color: #063549;
+}
+
+
+@media (max-width: 992px) {
+   label {height: 40px;}
+   p {font-size: 20px;}
+   p.subtitulo {font-size: 10px;}
+}
